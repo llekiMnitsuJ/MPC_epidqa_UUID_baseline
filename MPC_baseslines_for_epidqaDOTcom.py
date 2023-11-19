@@ -149,7 +149,7 @@ def findAndCreateExcelOfBaselines(MPCCheckdir, outfilename, ndirs=100, verbose=0
         findAndCreateExcelOfBaselines(directory, out)
         
         Next open up the excel file (will write to the current directory in your pyton interpreter). 
-        Then open up epidQA.com and use the 
+        Then open up epidQA.com and use the excel file to make dragging the Check.xml file onto website easier. 
     """
     
     df =  EPIDQA_scrape_MPC_baselines(MPCCheckdir, NumfilesToSearch=ndirs, verbose=verbose)
